@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 15px;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+/* BOGOTÁ BANNER */
+
+.hero-banner {
+    position: relative;
+    height: 50vh;
+    background: url(/bogota_banner.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-end;
+}
+
+.bog-title {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.weather-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.description {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/* 3 Days Section */
+
+.forecast {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.three-days ul {
+    list-style: none;
+}
+
+.three-days .title-threeDays {
+    font-size: 25px;
+}
+
+.weather-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.weather-box .status-1 {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.weather-box .status-2 {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.weather-box .status-3 {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.weather-box .icon-box {
+    height: auto;
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weather-box .temp-1 {
+    font-size: 12px;
+    border: 1px solid #7D85F5;
+    background-color: #7D85F5;
+    padding: 23px 5px 23px 5px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.weather-box .temp-2 {
+    font-size: 12px;
+    border: 1px solid #AEB2F8;
+    background-color: #AEB2F8;
+    padding: 23px 5px 23px 5px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.weather-box .temp-3 {
+    font-size: 12px;
+    border: 1px solid #AEB2F8;
+    background-color: #AEB2F8;
+    padding: 23px 5px 23px 5px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.weather-box .day-box {
+    padding: 0px 10px 0px 10px;
+}
+
+/* Place to Visit */
+
+.place-visit img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.place-visit h3 {
+    font-size: 25px;
+}
+
+/* Top Reviews */
+
+.top-reviews-box {
+    flex-wrap: wrap;
+}
+
+.top-reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-reviews img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.image-museum #img2 {
+    width: 205px;
+    height: 80px;
+    border-radius: 25px;
+}
+
+.image-museum #img3 {
+    width: 205px;
+    height: 115px;
+    border-radius: 25px;
+}
+
+/*France Forecast*/
+
+.lyon-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hum-speed, .paris-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lyon-box {
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.paris-box {
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.hum-lyon, .speed-lyon,
+.hum-paris, .speed-paris {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 772px) {
+    .lyon-box, .paris-box, .top-reviews-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 772px) {
+    .lyon-box, .paris-box, .top-reviews-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 560px) {
+    .france-forecast {
+        flex-wrap: wrap;
+    }
+    .place-visit img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
