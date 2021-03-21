@@ -1,5 +1,5 @@
 //Banner Bogotá
-const bogotaUrl = "http://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=5be15f27f180f07259d63b580db53929";
+const bogotaUrl = "https://api.openweathermap.org/data/2.5/weather?q=Bogota&appid=5be15f27f180f07259d63b580db53929";
 const bogotaHttps = new XMLHttpRequest();
 
 bogotaHttps.open("GET", bogotaUrl);

@@ -1,7 +1,7 @@
 //3 Days Forecast Section
 //3 Days Forecast Section
 //First Day Forecast
-const bogotaFirstDay = "http://api.openweathermap.org/data/2.5/forecast?lat=4.60971&lon=-74.081749&appid=5be15f27f180f07259d63b580db53929";
+const bogotaFirstDay = "https://api.openweathermap.org/data/2.5/forecast?lat=4.60971&lon=-74.081749&appid=5be15f27f180f07259d63b580db53929";
 const bogotaHttps1 = new XMLHttpRequest();
 
 bogotaHttps1.open("GET", bogotaFirstDay, true);

@@ -1,5 +1,5 @@
 //Lyon, FR - Weather
-const lyonUrl = "http://api.openweathermap.org/data/2.5/weather?q=lyon&appid=5be15f27f180f07259d63b580db53929";
+const lyonUrl = "https://api.openweathermap.org/data/2.5/weather?q=lyon&appid=5be15f27f180f07259d63b580db53929";
 const lyonHttps = new XMLHttpRequest();
 
 lyonHttps.open("GET", lyonUrl);

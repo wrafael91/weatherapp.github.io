@@ -1,5 +1,5 @@
 //Paris, FR - Weather
-const parisUrl = "http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=5be15f27f180f07259d63b580db53929";
+const parisUrl = "https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=5be15f27f180f07259d63b580db53929";
 const parisHttps = new XMLHttpRequest();
 
 parisHttps.open("GET", parisUrl);

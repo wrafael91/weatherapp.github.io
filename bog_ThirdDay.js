@@ -1,6 +1,6 @@
 //3 Days Forecast Section
 //Third Day Forecast
-const bogotaThirdDay = "http://api.openweathermap.org/data/2.5/forecast?lat=4.60971&lon=-74.081749&appid=5be15f27f180f07259d63b580db53929";
+const bogotaThirdDay = "https://api.openweathermap.org/data/2.5/forecast?lat=4.60971&lon=-74.081749&appid=5be15f27f180f07259d63b580db53929";
 const bogotaHttpsThirdDay = new XMLHttpRequest();
 
 bogotaHttpsThirdDay.open("GET", bogotaThirdDay, true);
